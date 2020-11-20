@@ -31,7 +31,7 @@ namespace Happycalculator
 
 
 
-              
+
                 if (userOperator == "+")
                 {
                     if (userOperator1 == "+")
@@ -39,23 +39,23 @@ namespace Happycalculator
                         sum = term1 + term2 + term3;
 
                     }
-                    if (userOperator1 == "-")
+                    else if (userOperator1 == "-")
                     {
                         sum = term1 + term2 - term3;
                     }
-                        
-                    if (userOperator1 == "/")
+
+                    else if (userOperator1 == "/")
                     {
                         sum = term1 + term2 / term3;
                     }
-                    if (userOperator1 =="*")
+                    else if (userOperator1 == "*")
                     {
                         sum = term1 + term2 * term3;
                     }
 
-                        
-                
-                    
+
+
+
 
                 }
                 if (userOperator == "-")
@@ -65,16 +65,16 @@ namespace Happycalculator
                         sum = term1 - term2 + term3;
 
                     }
-                    if (userOperator1 == "-")
+                    else if (userOperator1 == "-")
                     {
                         sum = term1 - term2 - term3;
                     }
 
-                    if (userOperator1 == "/")
+                    else if (userOperator1 == "/")
                     {
                         sum = term1 - term2 / term3;
                     }
-                    if (userOperator1 == "*")
+                    else if (userOperator1 == "*")
                     {
                         sum = term1 - term2 * term3;
                     }
@@ -87,16 +87,16 @@ namespace Happycalculator
                         sum = term1 / term2 + term3;
 
                     }
-                    if (userOperator1 == "-")
+                    else if (userOperator1 == "-")
                     {
                         sum = term1 / term2 - term3;
                     }
 
-                    if (userOperator1 == "/")
+                    else if (userOperator1 == "/")
                     {
                         sum = term1 / term2 / term3;
                     }
-                    if (userOperator1 == "*")
+                    else if (userOperator1 == "*")
                     {
                         sum = term1 / term2 * term3;
                     }
@@ -109,16 +109,16 @@ namespace Happycalculator
                         sum = term1 * term2 + term3;
 
                     }
-                    if (userOperator1 == "-")
+                    else if (userOperator1 == "-")
                     {
                         sum = term1 * term2 - term3;
                     }
 
-                    if (userOperator1 == "/")
+                    else if (userOperator1 == "/")
                     {
                         sum = term1 * term2 / term3;
                     }
-                    if (userOperator1 == "*")
+                    else if (userOperator1 == "*")
                     {
                         sum = term1 * term2 * term3;
                     }
@@ -127,7 +127,7 @@ namespace Happycalculator
 
 
 
-                    Console.WriteLine($"{term1} {userOperator} {term2} {userOperator1} {term3} = {sum}");
+                Console.WriteLine($"{term1} {userOperator} {term2} {userOperator1} {term3} = {sum}");
                 totalSum.Add(sum);
 
 
