@@ -153,7 +153,7 @@ namespace Happycalculator
                 if (no == "n" || no == "N")
                 {
                     Console.WriteLine("Den totala summan är: " + totalSum.Sum());
-                    Console.WriteLine("Tack för nu");
+                    Console.WriteLine("Tack för nu :)");
                     break;
                 }
                 else
