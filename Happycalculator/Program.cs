@@ -29,7 +29,7 @@ namespace Happycalculator
                 Console.WriteLine("Skriv den tredje termen");
                 term3 = Convert.ToInt32(Console.ReadLine());
 
-
+                
 
 
                 if (userOperator == "+")
